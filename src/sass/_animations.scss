@@ -1,0 +1,19 @@
+@keyframes navMove {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes navSmooth {
+	from {
+		top: -25px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 0.95;
+	}
+}
